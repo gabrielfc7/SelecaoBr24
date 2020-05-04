@@ -10,7 +10,7 @@ Vicular contato com a empresa (contato pertence a empresa).
 Deals adicionados CRM do Bitrix24.
 Atualizacao dos ganhos das Empresas.
 
-Aplicação orienatda a objeto (escopo de classe e funcoes para a Model)
+Aplicação orienatda a objeto 
 
 Padrao MVC
 
