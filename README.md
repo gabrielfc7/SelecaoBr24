@@ -3,11 +3,14 @@ Seleção - Desenvolvedor Br24
 
 ----------------------------------------------------------------------------------------------------------------
 O que foi desenvolvido:
-
+----------------------------------------------------------------------------------------------------------------
 
 CRUD completo.
+
 Vicular contato com a empresa (contato pertence a empresa).
+
 Deals adicionados CRM do Bitrix24.
+
 Atualizacao dos ganhos das Empresas.
 
 Aplicação orienatda a objeto 
