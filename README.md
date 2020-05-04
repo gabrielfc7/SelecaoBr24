@@ -47,22 +47,33 @@ Aplicativo está dentro do Bitrix24
 Informações Básicas:
 
 Crie um portal Bitrix24 através do link: www.bitrix24.com.br
+
 Lembre-se de criar um aplicativo na plataforma Bitrix24, por que seu código é inserido no Bitrix através de aplicativos.
+
 Pode-se utilizar Webhook de entrada ou utilizar a função de instalar aplicativo.
+
 Algumas informações de autenticação do Bitrix24 podem ser armazenadas em SESSÕES.
+
 Os contatos devem ser vinculado com empresa. 
+
 Dica: O relacionamento entre duas entidades se dá por um campo de identificação em uma das entidades.
+
 Fique livre para nos mostrar sua criatividade no layout.
+
 O Bitrix exige  estar hospedado e com HTTPS. 
 
 Como entregar?
 
 Adicione o projeto no GitHub
+
 Envie o link do projeto para fernanda.alencar@br24.io
+
 Compartilhe o portal Bitrix24 criado com fernanda.alencar@br24.io
 
 Materiais Complementares:
 
 Documentação do Bitrix em Inglês: https://training.bitrix24.com/rest_help
+
 Documentação do Bitrix em Russo: https://dev.1c-bitrix.ru/rest_help/
+
 Alguns exemplos de aplicativos: https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=93&LESSON_ID=7699&LESSON_PATH=7657.7699
