@@ -26,7 +26,7 @@ o Site tambem esta disponivel no link:
 https://selecaobr24.000webhostapp.com/
 
 
-
+Qual a Proposta:
 ----------------------------------------------------------------------------------------------------------------
 Utilizando a plataforma Bitrix24 juntamente com a linguagem de programação PHP desenvolva um CRUD conforme descrito abaixo:
 
