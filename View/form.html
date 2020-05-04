@@ -10,12 +10,12 @@
             <h1> Selecao Br24</h1><br>
             <form id="form_to_crm" class="pr-form" action="../Controller/form.php" method="POST">
                 <div class="input-fields">
-                        <input class= "btnInput" type="text" name="first_name" placeholder="Nome" ><br>
-                        <input class= "btnInput" type="text" name="last_name"  placeholder="Ultimo Nome"><br/>
-                        <input class= "btnInput" type="phone" name="phone" placeholder="Telefone"><br/>
+                        <input class= "btnInput" type="text" name="first_name" placeholder="Nome"required ><br>
+                        <input class= "btnInput" type="text" name="last_name"  placeholder="Ultimo Nome" required><br/>
+                        <input class= "btnInput" type="phone" name="phone" placeholder="Telefone" required><br/>
                         <input class= "btnInput" type="email" name="email" placeholder="Email" required><br>
                         <input class= "btnInput" type="text" name="CPF" placeholder=" CPF no formato: xxx.xxx.xxx-xx" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \required><br>
-                        <input class= "btnInput" type="text" name="nome_da_empresa" placeholder="Nome da Empresa"><br>
+                        <input class= "btnInput" type="text" name="nome_da_empresa" placeholder="Nome da Empresa" required><br>
                         <input class= "btnInput" type="text" name="CNPJ" placeholder="CNPJ" required><br>
                         <input class= "btnInput" type="hidden" name="saved" value="yes">
                         <input class="btn" type="submit" value="Cadastrar"><br>                       
