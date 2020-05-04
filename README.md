@@ -20,6 +20,7 @@ Padrao MVC
 Aplicação adicionada ao Bitrix, ID E CHAVE ABAIXO:
 
 ############################################################################
+
 ID do aplicativo: local.5eafd630764e97.29537628
 
 Chave do aplicativo: iNoxEA1KC1kBCr5Xe6NlnzT66ckZdWumtUsby9RZ4i0ogoknVd
