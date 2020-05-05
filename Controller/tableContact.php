@@ -7,8 +7,7 @@ require_once ('listar.php');
     }
     else{
         $x = count($result['result']);
-        do
-        {
+        for ($i=0; $i < $x; $i++) { 
             echo '<tr>';
             echo '<td>' .$result['result'][$i]['NAME']. '</td>' ;
             echo '<td>' .$result['result'][$i]['LAST_NAME']. '</td>' ;
@@ -16,7 +15,7 @@ require_once ('listar.php');
             echo '<td>' .$result['result'][$i]['PHONE'][0]['VALUE']. '</td>' ;
             echo '<td>' .$result['result'][$i]['EMAIL'][0]['VALUE']. '</td>' ;
             echo '</tr>';
-            $i++;
-        }while( $i < $x);
+        }
+
     }
 ?>
