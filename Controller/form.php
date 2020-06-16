@@ -4,6 +4,8 @@ require_once ('../Model/bitrixConn.php');
 $defaults = array('first_name' => '', 'last_name' => '', 'phone' => '', 'email' => '');
 $id_contact = 0;
 $id_company = 0;
+
+
 if (array_key_exists('saved', $_REQUEST)) {
     $defaults = $_REQUEST;
     BitrixConn:: writeToLog($_REQUEST, 'webform result');

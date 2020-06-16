@@ -1,0 +1,641 @@
+
+------------------------
+2020.06.14 5:36:22
+TESTE HELP FILIPE
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 201
+                    [ENTITY_ID] => CRM_COMPANY
+                    [FIELD_NAME] => UF_CRM_1588548671
+                    [USER_TYPE_ID] => money
+                    [XML_ID] => 
+                    [SORT] => 100
+                    [MULTIPLE] => N
+                    [MANDATORY] => N
+                    [SHOW_FILTER] => E
+                    [SHOW_IN_LIST] => Y
+                    [EDIT_IN_LIST] => Y
+                    [IS_SEARCHABLE] => N
+                    [SETTINGS] => Array
+                        (
+                            [DEFAULT_VALUE] => 0|BRL
+                        )
+
+                )
+
+        )
+
+    [total] => 1
+    [time] => Array
+        (
+            [start] => 1592105782.0814
+            [finish] => 1592105782.1027
+            [duration] => 0.021359920501709
+            [processing] => 0.001910924911499
+            [date_start] => 2020-06-14T06:36:22+03:00
+            [date_finish] => 2020-06-14T06:36:22+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.14 5:36:22
+webform result
+Array
+(
+    [first_name] => Daniel
+    [last_name] => Silva
+    [phone] => 3942309842
+    [email] => gaga@gag.com
+    [CPF] => 321.321.321-32
+    [nome_da_empresa] => TesteFilipe
+    [CNPJ] => 23132121
+    [saved] => yes
+)
+
+------------------------
+
+------------------------
+2020.06.14 5:36:22
+LIST COMPANY AND CHECK IF EXISTS
+Array
+(
+    [result] => Array
+        (
+        )
+
+    [total] => 0
+    [time] => Array
+        (
+            [start] => 1592105782.3773
+            [finish] => 1592105782.407
+            [duration] => 0.029660224914551
+            [processing] => 0.01103401184082
+            [date_start] => 2020-06-14T06:36:22+03:00
+            [date_finish] => 2020-06-14T06:36:22+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.14 5:36:22
+ADD COMPANY
+Array
+(
+    [result] => 188
+    [time] => Array
+        (
+            [start] => 1592105782.6595
+            [finish] => 1592105782.8738
+            [duration] => 0.21426892280579
+            [processing] => 0.19571304321289
+            [date_start] => 2020-06-14T06:36:22+03:00
+            [date_finish] => 2020-06-14T06:36:22+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.14 5:36:23
+LIST CONTACT AND CHECK IF EXISTS
+Array
+(
+    [result] => Array
+        (
+        )
+
+    [total] => 0
+    [time] => Array
+        (
+            [start] => 1592105783.1204
+            [finish] => 1592105783.1485
+            [duration] => 0.02806282043457
+            [processing] => 0.0083498954772949
+            [date_start] => 2020-06-14T06:36:23+03:00
+            [date_finish] => 2020-06-14T06:36:23+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.14 5:36:23
+ADD CONTACT
+Array
+(
+    [result] => 198
+    [time] => Array
+        (
+            [start] => 1592105783.3903
+            [finish] => 1592105783.5121
+            [duration] => 0.12177300453186
+            [processing] => 0.10241484642029
+            [date_start] => 2020-06-14T06:36:23+03:00
+            [date_finish] => 2020-06-14T06:36:23+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.14 5:36:23
+ADD CONTACT TO COMPANY
+Array
+(
+    [error] => 
+    [error_description] => The parameter 'fields' is not valid.
+)
+
+------------------------
+
+------------------------
+2020.06.14 6:56:18
+LIST CONTACS
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 181
+                    [NAME] => Gabriel
+                    [LAST_NAME] => Cação
+                    [UF_CRM_1588503377] => 054.729.451-43
+                    [PHONE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 413
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 92431185
+                                    [TYPE_ID] => PHONE
+                                )
+
+                            [1] => Array
+                                (
+                                    [ID] => 431
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 67992431185
+                                    [TYPE_ID] => PHONE
+                                )
+
+                        )
+
+                    [EMAIL] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 415
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => gabriel@gmail.com
+                                    [TYPE_ID] => EMAIL
+                                )
+
+                            [1] => Array
+                                (
+                                    [ID] => 433
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => gabrielfc1995@gmail.com
+                                    [TYPE_ID] => EMAIL
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [ID] => 183
+                    [NAME] => Rafael
+                    [LAST_NAME] => Cacao
+                    [UF_CRM_1588503377] => 036.553.721-75
+                    [PHONE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 417
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 8065440106
+                                    [TYPE_ID] => PHONE
+                                )
+
+                        )
+
+                    [EMAIL] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 419
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => rafael.cacao@ttu.edu
+                                    [TYPE_ID] => EMAIL
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [ID] => 185
+                    [NAME] => Daniel
+                    [LAST_NAME] => Silva
+                    [UF_CRM_1588503377] => 098.987.765-45
+                    [PHONE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 421
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 89239876
+                                    [TYPE_ID] => PHONE
+                                )
+
+                        )
+
+                    [EMAIL] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 423
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => daniel@gmail.com
+                                    [TYPE_ID] => EMAIL
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [ID] => 193
+                    [NAME] => asdasd
+                    [LAST_NAME] => asdasd
+                    [UF_CRM_1588503377] => 123.123.123-12
+                    [PHONE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 443
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 123123
+                                    [TYPE_ID] => PHONE
+                                )
+
+                        )
+
+                    [EMAIL] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 445
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 123123123@gmail.com
+                                    [TYPE_ID] => EMAIL
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [ID] => 195
+                    [NAME] => Marcos
+                    [LAST_NAME] => Silva
+                    [UF_CRM_1588503377] => 092.123.432-23
+                    [PHONE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 447
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 89989899
+                                    [TYPE_ID] => PHONE
+                                )
+
+                        )
+
+                    [EMAIL] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 449
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => marcos@silva.com
+                                    [TYPE_ID] => EMAIL
+                                )
+
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [ID] => 197
+                    [NAME] => Gabriel
+                    [LAST_NAME] => Cação
+                    [UF_CRM_1588503377] => 054.729.451-42
+                    [PHONE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 451
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 67992431185
+                                    [TYPE_ID] => PHONE
+                                )
+
+                        )
+
+                    [EMAIL] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 453
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => gabrielfc1995@gmail.com
+                                    [TYPE_ID] => EMAIL
+                                )
+
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [ID] => 198
+                    [NAME] => Daniel
+                    [LAST_NAME] => Silva
+                    [UF_CRM_1588503377] => 321.321.321-32
+                    [PHONE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 462
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 3942309842
+                                    [TYPE_ID] => PHONE
+                                )
+
+                        )
+
+                    [EMAIL] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 464
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => gaga@gag.com
+                                    [TYPE_ID] => EMAIL
+                                )
+
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [ID] => 200
+                    [NAME] => Gabriel Farias Cação
+                    [LAST_NAME] => 
+                    [UF_CRM_1588503377] => 
+                    [PHONE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 466
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 67992431185
+                                    [TYPE_ID] => PHONE
+                                )
+
+                        )
+
+                    [EMAIL] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 468
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => gabrielfc1995@gmail.com
+                                    [TYPE_ID] => EMAIL
+                                )
+
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [ID] => 202
+                    [NAME] => Gabriel Farias Cação
+                    [LAST_NAME] => 
+                    [UF_CRM_1588503377] => 
+                    [PHONE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 470
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 67992431185
+                                    [TYPE_ID] => PHONE
+                                )
+
+                        )
+
+                    [EMAIL] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 472
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => gabrielfc1995@gmail.com
+                                    [TYPE_ID] => EMAIL
+                                )
+
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [ID] => 204
+                    [NAME] => Gabriel Farias Cação
+                    [LAST_NAME] => 
+                    [UF_CRM_1588503377] => 12315664
+                    [PHONE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 474
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => 67992431185
+                                    [TYPE_ID] => PHONE
+                                )
+
+                        )
+
+                    [EMAIL] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 476
+                                    [VALUE_TYPE] => WORK
+                                    [VALUE] => gabrielfc1995@gmail.com
+                                    [TYPE_ID] => EMAIL
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [total] => 10
+    [time] => Array
+        (
+            [start] => 1592110578.0399
+            [finish] => 1592110578.0663
+            [duration] => 0.026381015777588
+            [processing] => 0.0071489810943604
+            [date_start] => 2020-06-14T07:56:18+03:00
+            [date_finish] => 2020-06-14T07:56:18+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.14 6:56:18
+LIST COMPANIES
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 177
+                    [TITLE] => 123123
+                    [UF_CRM_1588503398] => 123123123
+                    [UF_CRM_1588548671] => 7947.32|BRL
+                )
+
+            [1] => Array
+                (
+                    [ID] => 173
+                    [TITLE] => 456
+                    [UF_CRM_1588503398] => 123456764543
+                    [UF_CRM_1588548671] => 30|BRL
+                )
+
+            [2] => Array
+                (
+                    [ID] => 175
+                    [TITLE] => Empre Teste
+                    [UF_CRM_1588503398] => 12321
+                    [UF_CRM_1588548671] => 200|BRL
+                )
+
+            [3] => Array
+                (
+                    [ID] => 183
+                    [TITLE] => Empresa20
+                    [UF_CRM_1588503398] => 20
+                    [UF_CRM_1588548671] => 
+                )
+
+            [4] => Array
+                (
+                    [ID] => 190
+                    [TITLE] => empresa20
+                    [UF_CRM_1588503398] => 
+                    [UF_CRM_1588548671] => 
+                )
+
+            [5] => Array
+                (
+                    [ID] => 192
+                    [TITLE] => empresa20
+                    [UF_CRM_1588503398] => 
+                    [UF_CRM_1588548671] => 
+                )
+
+            [6] => Array
+                (
+                    [ID] => 194
+                    [TITLE] => empresa20
+                    [UF_CRM_1588503398] => 
+                    [UF_CRM_1588548671] => 
+                )
+
+            [7] => Array
+                (
+                    [ID] => 185
+                    [TITLE] => Empresa30
+                    [UF_CRM_1588503398] => 30
+                    [UF_CRM_1588548671] => 
+                )
+
+            [8] => Array
+                (
+                    [ID] => 187
+                    [TITLE] => INPE
+                    [UF_CRM_1588503398] => 013.456.789-12
+                    [UF_CRM_1588548671] => 
+                )
+
+            [9] => Array
+                (
+                    [ID] => 179
+                    [TITLE] => MarcosProd
+                    [UF_CRM_1588503398] => 293
+                    [UF_CRM_1588548671] => 
+                )
+
+            [10] => Array
+                (
+                    [ID] => 181
+                    [TITLE] => NovaEmpresa
+                    [UF_CRM_1588503398] => 9090
+                    [UF_CRM_1588548671] => 
+                )
+
+            [11] => Array
+                (
+                    [ID] => 188
+                    [TITLE] => TesteFilipe
+                    [UF_CRM_1588503398] => 23132121
+                    [UF_CRM_1588548671] => 
+                )
+
+        )
+
+    [total] => 12
+    [time] => Array
+        (
+            [start] => 1592110578.3091
+            [finish] => 1592110578.3304
+            [duration] => 0.021315097808838
+            [processing] => 0.0043430328369141
+            [date_start] => 2020-06-14T07:56:18+03:00
+            [date_finish] => 2020-06-14T07:56:18+03:00
+        )
+
+)
+
+------------------------

@@ -21,7 +21,7 @@ class BitrixConn
 
     public function ConnWH($queryData, $queryUrl, $ssl_verify) {
         
-        $queryUrl1 = 'https://b24-gdmg97.bitrix24.com.br/rest/1/2qiotwgwavymgnat/'.$queryUrl;
+        $queryUrl1 = 'https://gabrielcacao.bitrix24.com.br/rest/17/ypmy2mqvh0ppgrwn/'.$queryUrl;
         $curl = curl_init();
         curl_setopt_array($curl, array(
         CURLOPT_SSL_VERIFYPEER => $ssl_verify,
@@ -105,7 +105,7 @@ class BitrixConn
         BitrixConn::writeToLog($result, 'FIND COMPANY AMOUNT');
 
         $amount = $result['result'][0]['UF_CRM_1588548671'] + $newAmount;
-        $company_amount_id = $result1['result'][0]['ID'];
+        $company_amount_id = $result['result'][0]['ID'];
         $queryUrl = 'crm.company.update';
         // Set the data for the operation
         $queryData = http_build_query(array(
